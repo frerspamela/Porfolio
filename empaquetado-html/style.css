@@ -5,3 +5,23 @@
 .header .navbar {
     background-color: transparent !important;
   }
+  .redondo {
+    border: 2px solid rgb(255, 254, 254);
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .rectangular {
+    border: 2px solid rgb(255, 254, 254);
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    border-radius: 0;
+    overflow: hidden;
+  }
