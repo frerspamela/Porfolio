@@ -1,0 +1,7 @@
+.header{
+    background: url(FrontEnd/img/miscelaneas/ushbanner.jpg) no-repeat center;
+    background-size: cover;
+}
+.header .navbar{
+background-color: transparent !important;
+}
