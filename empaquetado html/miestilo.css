@@ -1,5 +1,8 @@
 .header {
-    background: url(https://github.com/frerspamela/Porfolio/blob/master/empaquetado%20html/img/navbar.jpg) no-repeat center;
+    background: url(hC:\Users\Seguridad\Desktop\Porfolio\empaquetado-html\img\navbar.jpg) no-repeat center;
     background-size: cover;
     min-height: 100vh;
+  }
+  .header .navbar {
+    background-color: transparent !important;
   }
