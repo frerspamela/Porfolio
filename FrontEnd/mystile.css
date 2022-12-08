@@ -17,4 +17,89 @@ background-color: transparent !important;
     border-radius: 50%;
     border-color: black;
     overflow: hidden;
+    
 }
+.banner{
+    border: 2px solid rgb(255, 254, 254);
+    height: 50%;
+    width: 25%;
+    padding: 0;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+  }
+  .div:before {       
+    display: block;       
+    content: " ";   
+    background-color: #073642;    
+    margin-top: -53px;       
+    height: 120px;       
+    visibility: hidden; 
+  } 
+  .centro {
+   
+    background-image: url(images/animado.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+    height: 150px;
+    width: auto;
+  }
+  .margenalto {
+    margin-top: -15px;
+
+  }
+  .fondo {
+    background-color: azure;
+  }
+  .centrarimg {
+    position: relative;
+    
+  }
+  .centrartexto {
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+  .achica{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    max-width: 168px;
+    max-height: 168px;
+    
+  }
+  .achica1{
+    object-fit: contain;
+    width:100%;
+    height:100%;
+    max-width: 168px;
+    max-height: 168px;
+    
+  }
+  .centrarcol {
+      min-height: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .margenbajo {
+      margin-top: 25px;
+  
+    }
+    .zoom {
+      transition: transform .010s;
+      
+  }
+   
+  .zoom:hover {
+      transform: scale(2.0);
+      margin-left:120px;
+      margin-top:70px;
+      position: relative;
+      z-index: 100;   
+  }
+  .acordis {
+  background-color: ;
+  }
+  
